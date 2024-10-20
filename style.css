@@ -96,3 +96,26 @@ button:hover{
     }
     
 }
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    top: 50%;
+    right: 20px; 
+    transform: translateY(-50%); 
+    gap: 30px; }
+
+ul li {
+    font-size: 50px; 
+    color: #691d16;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+ul li:hover{
+    color: #2f0e0e;
+}
+
+
